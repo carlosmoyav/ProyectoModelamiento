@@ -21,6 +21,9 @@ import { Tema1Component } from './tema1/tema1.component';
 import { Tema2Component } from './tema2/tema2.component';
 import { Tema3Component } from './tema3/tema3.component';
 import { Tema4Component } from './tema4/tema4.component';
+import { Tema5Component } from './tema5/tema5.component';
+import { Tema6Component } from './tema6/tema6.component';
+import { Tema7Component } from './tema7/tema7.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { Tema4Component } from './tema4/tema4.component';
     Tema1Component,
     Tema2Component,
     Tema3Component,
-    Tema4Component
+    Tema4Component,
+    Tema5Component,
+    Tema6Component,
+    Tema7Component
   ],
   imports: [
     BrowserModule,
