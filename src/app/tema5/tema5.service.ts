@@ -10,7 +10,7 @@ export class Tema5Service {
   upload(file: File, api: string): Observable<any> {
     // Create form data
     const formData = new FormData();
-    api = 'http://34.67.213.198:3000/api/' + api;
+    api = 'https://mundovirtual.cf/api/' + api;
 
     console.log(file);
 
